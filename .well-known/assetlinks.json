@@ -1,0 +1,25 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "web",
+        "site": "https://meowing-ink-newsprint.glitch.me/"
+      }
+    },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.rs0222.testpasskeyauth",
+        "sha256_cert_fingerprints": [
+          "E7:51:8D:74:7A:03:71:D9:91:65:58:1B:79:BD:AD:7D:46:BE:67:42:A0:45:37:60:D4:A2:FC:18:63:C8:72:73"
+        ]
+      }
+    }
+  ]
