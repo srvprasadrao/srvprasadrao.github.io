@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Stelo app</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript">
+
+        function printHref() {
+            var queryparams = window.location.search
+            if(!queryparams) {
+                queryparams = "Empty params"
+            }
+            document.getElementById("redirect_url").textContent='| '+queryparams+" |"
+        }
+        
+    </script>
+
+  </head>
+    <body onload=printHref()>
+        <H1> G7 Redirection page </H1>
+        <BR /><BR /><BR />
+        <Div id="redirect_url_div">
+            <span id="redirect_url" style="color: black;">Test</span>
+        </Div>
+    </body>
+</html>
